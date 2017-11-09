@@ -162,7 +162,9 @@ nav li a:hover {
 	position: relative;
 	left: 15%;
 	}	
-
+	.btn__join_span {
+		font-size:30px; 
+	}
 	
 }
 .money {
@@ -234,4 +236,57 @@ nav li a:hover {
 		color: black;
 	}
 }
-
+.advantages__title {
+	background-image: url(img/advantages2.png);
+	background-repeat: no-repeat;
+	background-position-x: 50% ;
+	text-align: center;
+	padding: 10px;
+}
+.advantages__item {
+	background-color: #FFAC42;
+}
+.advantages__item:nth-child(odd) {
+	background-color: #4CAF52;
+}
+@media (min-width: 1200px) {
+	 .advantages {
+	 	position: relative;
+	 }
+ 
+	.advantages__item {
+		display: block;		
+		background-image: url(img/advantages.png);
+		background-repeat: no-repeat;
+		background-size: cover;		
+		width: 34%;
+		padding: 16vh 0; 
+		position: absolute;
+		font-size: 31px;
+	}
+	.advantages__item_1 {
+		position: absolute;		
+		left: 0%;
+	}
+	.advantages__item_2 {
+		position: absolute;		
+		right: 0%;
+	}	
+	.advantages__item_3 {
+		position: absolute;		
+		left: 0;
+		top: 55vh;
+	}	
+	.advantages__item_4 {
+		position: absolute;		
+		right: 0;
+		top: 55vh;
+	}	
+	.advantages__item_5 {
+		position: absolute;		
+		right: 28%;
+		top: 20vh;
+		width: 44%;
+		padding: 25vh 0;
+	}	
+}
