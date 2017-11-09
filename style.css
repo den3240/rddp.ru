@@ -254,8 +254,9 @@ nav li a:hover {
 	 	position: relative;
 	 }
  
-	.advantages__item {
-		display: block;		
+	.advantages .advantages__item {
+		display: block;	
+		background-color: transparent;	
 		background-image: url(img/advantages.png);
 		background-repeat: no-repeat;
 		background-size: cover;		
