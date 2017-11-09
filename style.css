@@ -56,7 +56,6 @@ nav li a:hover {
 .first__text {
 	height: 90vh;
 	text-align: center;
-
 	background-color: rgba(255, 255, 255, 0.8);
 }
 .hr {
@@ -100,9 +99,17 @@ nav li a:hover {
 	margin:10px auto;
 	border: 1px solid black;
 	border-radius: 50%;
-
+}
+.btn__join {
+	width: 70%;
+	position: relative;
+	left: 15%;
 }
 @media (min-width: 1200px) {
+	.join {
+		padding-top: 10vh;
+		padding-bottom: 5vh;
+	}
 	.join__list {
 		position: relative;
 		background-image: url(img/joinbg.png);
@@ -150,10 +157,81 @@ nav li a:hover {
 		left: 50%;
 		width: 30%
 	}
-				
+	.btn__join {
+	width: 70%;
+	position: relative;
+	left: 15%;
+	}	
 
 	
 }
+.money {
+	margin: 0;
+	padding: 5vh 0;
+	background-image: url(img/moneybg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.money__number {
+	font-size: 36px;
+	display: block;
 
+}
 
+@media (min-width: 768px) {
+	.money__list {
+
+	}
+	.money__item {
+		background-color: rgba(255, 255, 255, 0.8);
+		border-radius: 10px; 
+		height: 35vh;
+		color: black;
+		margin-bottom: 5vh;
+		padding-left: 7%;
+		text-align: left;
+	}
+	.money__item:nth-child(1) {
+		background-image: url(img/money1.png);
+		background-repeat: no-repeat;
+		background-position-y: 10% ;
+		background-position-x: 20% ;
+
+	}	
+	.money__item:nth-child(2) {
+		background-image: url(img/money2.png);
+		background-repeat: no-repeat;
+		background-position-y: 10% ;
+		background-position-x: 20% ;
+
+	}
+	.money__item:nth-child(3) {
+		background-image: url(img/money3.png);
+		background-repeat: no-repeat;
+		background-position-y: 10% ;
+		background-position-x: 20% ;
+
+	}
+	.money__item:nth-child(4) {
+		background-image: url(img/money4.png);
+		background-repeat: no-repeat;
+		background-position-y: 10% ;
+		background-position-x: 20% ;
+
+	}
+	.money__item:nth-child(5) {
+		background-image: url(img/money5.png);
+		background-repeat: no-repeat;
+		background-position-y: 10% ;
+		background-position-x: 20% ;
+
+	}								
+	.money__number {
+		font-size: 36px;
+		display: block;
+		color: black;
+	}
+}
 
